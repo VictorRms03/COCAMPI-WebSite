@@ -1,0 +1,30 @@
+/* Arquivo de CSS referente ao Carrossel da página */
+
+/* Carrossel do Início da Página */
+.gallery {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+.galery .img {
+    display: flex;
+    width: 100%; /* Tornando o carrossel responsivo */
+    height: auto;
+   
+}
+
+.galery .fotos img {
+    flex: 0 0 20%; /* Ajuste a largura das imagens conforme necessário */
+}
+
+/* Carrossel do tópico de Turismo */
+.gallery2 {
+    width: 100%;
+    overflow: hidden;
+}
+.gallery2 img {
+    width: 100%;
+    height: auto;
+}
