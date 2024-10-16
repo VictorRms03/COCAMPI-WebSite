@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 .subtitulo {
-    /*font-family: "Roboto Condensed", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
-    font-style: normal;*/
-    text-shadow: 2px 2px 1px #15432A;
+    font-style: normal;
+}
+
+.subtitulo-invertido {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 60px;
 }
 
 .roboto-condensed {
@@ -12,3 +16,54 @@
     font-weight: 700;
     font-style: normal;
 }
+
+.influencia-prod {
+    margin: 50px 0px;
+}
+
+/*Opção 1 de Cores
+.subtitulo {
+    color: #15432A;
+    text-shadow: 0px 0px 0px #ffffff;
+}
+
+.influencia-prod {
+    color: #95ac2c;
+}
+
+.telefone-strong {
+    color: #95ac2c;
+}
+
+.social-icon-link {
+    background: #95ac2c;
+}
+
+.about-section h6 {
+    color: #95ac2c;
+}*/
+
+
+/*Opção 2  de Cores*/
+.subtitulo {
+    color: #95ac2c;
+    text-shadow: 2px 2px 1px #15432A;
+}
+
+.influencia-prod {
+    color: #15432A;
+}
+
+.telefone-strong {
+    color: #15432A;
+}
+
+.social-icon-link {
+    background: #15432A;
+}
+
+.about-section h6 {
+    color: #15432A;
+}
+
+/*Opção 3*/
