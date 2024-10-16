@@ -21,30 +21,7 @@
     margin: 50px 0px;
 }
 
-/*Opção 1 de Cores
-.subtitulo {
-    color: #15432A;
-    text-shadow: 0px 0px 0px #ffffff;
-}
-
-.influencia-prod {
-    color: #95ac2c;
-}
-
-.telefone-strong {
-    color: #95ac2c;
-}
-
-.social-icon-link {
-    background: #95ac2c;
-}
-
-.about-section h6 {
-    color: #95ac2c;
-}*/
-
-
-/*Opção 2  de Cores*/
+/*Opção 1  de Cores*/
 .subtitulo {
     color: #95ac2c;
     text-shadow: 2px 2px 1px #15432A;
@@ -65,5 +42,27 @@
 .about-section h6 {
     color: #15432A;
 }
+
+/*Opção 2 de Cores
+.subtitulo {
+    color: #15432A;
+    text-shadow: 0px 0px 0px #ffffff;
+}
+
+.influencia-prod {
+    color: #95ac2c;
+}
+
+.telefone-strong {
+    color: #95ac2c;
+}
+
+.social-icon-link {
+    background: #95ac2c;
+}
+
+.about-section h6 {
+    color: #95ac2c;
+}*/
 
 /*Opção 3*/
