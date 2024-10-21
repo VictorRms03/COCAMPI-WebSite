@@ -1,5 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+.img-apoio {
+    max-height: auto;
+    max-width: 100px;
+}
+
+.turismo-div {
+
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 65px;
+
+    hr {
+        margin: 60px 0px;
+    }
+
+    .services-image {
+        margin-bottom: 40px;
+        max-width: 250px;
+        max-height: 250px;
+        height: auto;
+        width: auto;
+    }
+
+    .carousel-item img {
+        border-radius: 20px;
+        max-height: 600px;
+        width: 400px;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        width: 4rem;
+        height: 4rem;
+    }
+
+}
+
 .subtitulo {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;

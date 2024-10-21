@@ -383,7 +383,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/1.png');
+  background-image: url('../images/fundos/fundoInicio.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -485,7 +485,7 @@ strong {
   FEATURED               
 -----------------------------------------*/
 .featured-section {
-  background-image: url('../images/banner-bg.png');
+  background-image: url('../images/fundos/fundoAMogiana.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -602,7 +602,7 @@ strong {
   BOOKING               
 -----------------------------------------*/
 .booking-section {
-  background-image: url('../images/fundo\ cafe.png');
+  background-image: url('../images/fundos/fundoTurismo.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
