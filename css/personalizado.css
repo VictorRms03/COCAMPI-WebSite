@@ -57,7 +57,25 @@
     margin: 50px 0px;
 }
 
-/*Opção 1  de Cores*/
+.custom-btn {
+    background: #95ac2c;
+    color: var(--white-color);
+}
+
+.custom-btn:hover {
+    background: #15432A;
+    color: var(--white-color);
+}
+
+.site-footer-link {
+    color: #15432A;
+}
+
+.site-footer-link:hover {
+    color: #95ac2c;
+}
+
+/*Opção 1  de Cores
 .subtitulo {
     color: #95ac2c;
     text-shadow: 2px 2px 1px #15432A;
@@ -77,9 +95,9 @@
 
 .about-section h6 {
     color: #15432A;
-}
+}*/
 
-/*Opção 2 de Cores
+/*Opção 2 de Cores*/
 .subtitulo {
     color: #15432A;
     text-shadow: 0px 0px 0px #ffffff;
@@ -99,6 +117,24 @@
 
 .about-section h6 {
     color: #95ac2c;
-}*/
+}
+
+.custom-btn {
+    background: #95ac2c;
+    color: var(--white-color);
+}
+
+.custom-btn:hover {
+    background: #15432A;
+    color: var(--white-color);
+}
+
+.site-footer-link {
+    color: #15432A;
+}
+
+.site-footer-link:hover {
+    color: #95ac2c;
+}
 
 /*Opção 3*/
