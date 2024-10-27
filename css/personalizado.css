@@ -57,24 +57,6 @@
     margin: 50px 0px;
 }
 
-.custom-btn {
-    background: #95ac2c;
-    color: var(--white-color);
-}
-
-.custom-btn:hover {
-    background: #15432A;
-    color: var(--white-color);
-}
-
-.site-footer-link {
-    color: #15432A;
-}
-
-.site-footer-link:hover {
-    color: #95ac2c;
-}
-
 /*Opção 1  de Cores
 .subtitulo {
     color: #95ac2c;
@@ -94,6 +76,24 @@
 }
 
 .about-section h6 {
+    color: #15432A;
+}
+    
+.custom-btn {
+    background: #95ac2c;
+    color: var(--white-color);
+}
+
+.custom-btn:hover {
+    background: #15432A;
+    color: var(--white-color);
+}
+
+.site-footer-link {
+    color: #95ac2c;
+}
+
+.site-footer-link:hover {
     color: #15432A;
 }*/
 
