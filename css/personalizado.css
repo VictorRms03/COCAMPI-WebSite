@@ -1,32 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-.img-apoio {
-    max-height: auto;
-    max-width: 100px;
-}
-
 .turismo-div {
 
     background-color: #ffffff;
-    border-radius: 20px;
-    padding: 65px;
+    border-radius: 1.5rem;
+    padding: 4rem;
 
     hr {
-        margin: 60px 0px;
+        margin: 2rem 0rem;
     }
 
     .services-image {
-        margin-bottom: 40px;
-        max-width: 250px;
-        max-height: 250px;
+        margin-bottom: 3rem;
+        max-width: 15rem;
+        max-height: 15rem;
         height: auto;
         width: auto;
     }
 
     .carousel-item img {
-        border-radius: 20px;
-        max-height: 600px;
-        width: 400px;
+        border-radius: 1.5rem;
+        max-height: 40rem;
+        height: auto;
+        width: 40rem;
     }
 
     .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -55,6 +51,27 @@
 
 .influencia-prod {
     margin: 50px 0px;
+}
+
+.site-footer {
+    padding-bottom: 50px;
+}
+
+.apoio {
+    color: #15432A;
+}
+
+.img-apoio {
+    max-height: 3rem;
+    max-width: auto;
+}
+
+.section-padding {
+    padding: 50px 50px;
+}
+
+.featured-section {
+    padding: 100px 50px;
 }
 
 /*Opção 1  de Cores
