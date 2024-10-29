@@ -9,8 +9,7 @@ LISTA DE FAZERES:
     - (NEM ME RESPONDEU)
 
 5-) Acertar as informações de contato (links funcionando);
-    - LINK FACEBOOK?
-    - GERAR LINK WHATSAPP
+    - GERAR LINK WHATSAPP (talvez)
 
 8-) No início, incluir carrossel de imagens no início, ao fundo de “Café da Região de Pinhal”....”Seja bem vindo”.......;
     - (PEGAR FOTOS)
@@ -22,7 +21,7 @@ LISTA DE FAZERES:
     - (AGUARDANDO TEXTO DA ANDRÉA)
 
 11-) Revisar tamanho e tipo de fonte para melhor visualização;
-    - Fazer 2 modelos (ou mais)
+    - Fazer 2 modelos
 
 12-) Alterar as fotos do carrossel do roteiro do Genoma à Xícara. Andréa enviará novas fotos;
     - (AGUARDANDO NOVAS FOTOS)
