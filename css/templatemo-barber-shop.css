@@ -404,7 +404,7 @@ strong {
 
 .hero-section::after {
   content: "";
-  background: linear-gradient(90deg, #BC5E64 0%, #5E2927 100%);
+  background: linear-gradient(90deg, #4e121083 30%, #ffffff00 100%);
   position: absolute;
   top: 0;
   right: 0;

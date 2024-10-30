@@ -1,5 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* BUF FIXING */
+
+
+/* GERAL */
+.subtitulo {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.subtitulo-invertido {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 60px;
+}
+
+.section-padding {
+    padding: 50px 50px;
+}
+
+.featured-section {
+    padding: 100px 50px;
+}
+
+/* HOME */
+
+.hero-section {
+
+    .roboto-condensed {
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    a {
+        font-weight: 400;
+    }
+}
+
+
+/* O CAFE NA REGIAO */
+.influencia-prod {
+    margin: 50px 0px;
+}
+
+/* INDICAÇÃO GEOGRAFICA */
+.custom-block-bg-overlay-wrap {
+    background: #15432A;
+}
+  
+.custom-block-bg-overlay-wrap:hover {
+    background: #95ac2c;
+    transform: scale(1.05);
+}
+
+/* TURISMO DO CAFE */
 .turismo-div {
 
     background-color: #ffffff;
@@ -8,6 +63,12 @@
 
     hr {
         margin: 2rem 0rem;
+    }
+
+    .carousel {
+        
+        margin: 50px 50px 0px 50px;
+
     }
 
     .services-image {
@@ -21,38 +82,39 @@
     .carousel-item img {
         border-radius: 1.5rem;
         max-height: 40rem;
-        height: auto;
-        width: 40rem;
+        height: 100%;
+        width: 100%;
     }
 
     .carousel-control-prev-icon, .carousel-control-next-icon {
-        width: 4rem;
-        height: 4rem;
+        width: 6rem;
+        height: 6rem;
     }
 
 }
 
-.subtitulo {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+/* NOSSOS CONCURSOS */
+.concursos {
+    margin: 0px 50px;
+
+    .carousel {
+        margin: 0 auto;
+        max-height: 40rem;
+        height: auto;
+        width: 50rem;
+
+        img {
+            border-radius: 1.5rem;
+        }
+
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            width: 6rem;
+            height: 6rem;
+        }
+    }
 }
 
-.subtitulo-invertido {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 60px;
-}
-
-.roboto-condensed {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.influencia-prod {
-    margin: 50px 0px;
-}
-
+/* FINAL */
 .site-footer {
     padding-bottom: 50px;
 }
@@ -64,14 +126,6 @@
 .img-apoio {
     max-height: 3rem;
     max-width: auto;
-}
-
-.section-padding {
-    padding: 50px 50px;
-}
-
-.featured-section {
-    padding: 100px 50px;
 }
 
 /*Opção 1  de Cores*/
@@ -97,12 +151,13 @@
 }
     
 .custom-btn {
-    background: #95ac2c;
+    background: #15432A;
     color: var(--white-color);
+    font-weight: 400;
 }
 
 .custom-btn:hover {
-    background: #15432A;
+    background: #95ac2c;
     color: var(--white-color);
 }
 
@@ -112,6 +167,10 @@
 
 .site-footer-link:hover {
     color: #15432A;
+}
+
+a:hover {
+    color: #95ac2c;
 }
 
 /*Opção 2 de Cores
@@ -151,6 +210,10 @@
 }
 
 .site-footer-link:hover {
+    color: #95ac2c;
+}
+
+a:hover {
     color: #95ac2c;
 }*/
 
