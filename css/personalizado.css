@@ -2,7 +2,6 @@
 
 /* BUF FIXING */
 
-
 /* GERAL */
 .subtitulo {
     font-family: "Roboto Condensed", sans-serif;
@@ -24,7 +23,6 @@
 }
 
 /* HOME */
-
 .hero-section {
 
     .roboto-condensed {
@@ -42,6 +40,20 @@
 /* O CAFE NA REGIAO */
 .influencia-prod {
     margin: 50px 0px;
+}
+
+/* COCAMPI */
+.cargos-div {
+    margin: 60px 0px;
+
+    ul {
+        margin-bottom: 2rem;
+    }
+
+    li{
+        font-size: large;
+        color: black;
+    }
 }
 
 /* INDICAÇÃO GEOGRAFICA */
