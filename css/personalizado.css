@@ -72,6 +72,7 @@
     background-color: #ffffff;
     border-radius: 1.5rem;
     padding: 4rem;
+    margin: 4rem 0rem;
 
     hr {
         margin: 2rem 0rem;
@@ -103,7 +104,22 @@
         height: 6rem;
     }
 
+    
+
 }
+
+.turismo-header {
+    
+    h2 {
+        font-size: 55px !important; 
+    };
+    
+    
+    padding: 3rem 3rem;
+    
+}
+
+
 
 /* NOSSOS CONCURSOS */
 .concursos {
