@@ -22,6 +22,10 @@
     padding: 100px 50px;
 }
 
+.text-indent {
+    text-indent: 30px;
+}
+
 /* HOME */
 .hero-section {
 
