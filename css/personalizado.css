@@ -70,6 +70,32 @@
     transform: scale(1.05);
 }
 
+/* ASSOCIADOS */
+.card-group {
+
+    margin-bottom: 2rem;
+
+    .card {
+        width: 18rem;
+        height: 24rem;
+    }
+
+    .border-primary {
+        border: 1px solid #95ac2c !important;
+        border-radius: 1rem !important;
+    }
+
+    .card-img-top {
+
+        height: 20rem;
+        width: auto;
+        object-fit: scale-down;
+
+        margin: 1rem;
+    }
+}
+
+
 /* TURISMO DO CAFE */
 .turismo-div {
 
