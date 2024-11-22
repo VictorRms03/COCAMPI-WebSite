@@ -27,6 +27,13 @@
     }
 }
 
+@media (max-width: 468px) {
+    .card {
+        width: 16rem !important;
+        height: 22rem !important;
+    }
+}
+
 /* GERAL */
 .subtitulo {
     font-family: "Roboto Condensed", sans-serif;
