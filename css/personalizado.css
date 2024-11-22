@@ -15,6 +15,18 @@
 
 }
 
+@media (max-width: 900px) {
+    .turismo-div {
+        padding: 4rem 2rem !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .turismo-div {
+        padding: 4rem 1rem !important;
+    }
+}
+
 /* GERAL */
 .subtitulo {
     font-family: "Roboto Condensed", sans-serif;
