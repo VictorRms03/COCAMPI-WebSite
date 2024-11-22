@@ -7,12 +7,10 @@ LISTA DE FAZERES:
 - Finestra (Camila): (n to sabendo certinho)
 - Guaspari (Ederson) (Não me enviou ainda)
 
-2-) Gerar Link do Whatsapp e Inserir;
+2-) Diminuir as imagens e fontes e DIV's quando o aparelho for menor
 
-3-) Alterar medições de px para rem.
+3-) (ANTES DE TURISMO): Lista de Produtores com Link para AgTrace (associados): Nome / Logo / Link
 
-4-) Colocar todas as imagens com img-fluid
+4-) Alterar imagens a aba 'Turismo' para se comportar de forma correta a telas menores
 
-5-) Diminuir as imagens e fontes e DIV's quando o aparelho for menor
-
-6-) (ANTES DE TURISMO): Lista de Produtores com Link para AgTrace (associados): Nome / Logo / Link
+5-) Diminuir fontes em telas menores
