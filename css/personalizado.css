@@ -16,9 +16,19 @@
 }
 
 @media (max-width: 900px) {
+
+    p {
+        font-size: 16px;
+    }
+
+    .section-padding {
+        padding: 50px 20px !important;
+    }
+
     .turismo-div {
         padding: 4rem 2rem !important;
     }
+
 }
 
 @media (max-width: 500px) {
