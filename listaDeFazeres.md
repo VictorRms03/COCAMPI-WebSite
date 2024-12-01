@@ -9,8 +9,10 @@ LISTA DE FAZERES:
 
 2-) Alterar imagens a aba 'Turismo' para se comportar de forma correta a telas menores
 
-3-) Diminuir fontes em telas menores
+3-) Incluir imagens no 'Turismo' e no 'Associados' do "Sentiero de Santana" (wpp: +55 19 99749-9630)
 
-4-) Incluir imagens no 'Turismo' e no 'Associados' do "Sentiero de Santana" (wpp: +55 19 99749-9630)
+4-) Obter Logos dos Associados
 
-5-) Obter Logos dos Associados
+5-) Elaborar Texto dos Associados
+
+6-) Elaborar Tutorial para Continuação do Projeto: Como colocar no ar // Como dar o Fork
