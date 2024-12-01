@@ -7,10 +7,10 @@ LISTA DE FAZERES:
 - Finestra (Camila): (n to sabendo certinho)
 - Guaspari (Ederson) (Não me enviou ainda)
 
-2-) Diminuir as imagens e fontes e DIV's quando o aparelho for menor
+2-) Alterar imagens a aba 'Turismo' para se comportar de forma correta a telas menores
 
-3-) (ANTES DE TURISMO): Lista de Produtores com Link para AgTrace (associados): Nome / Logo / Link
+3-) Diminuir fontes em telas menores
 
-4-) Alterar imagens a aba 'Turismo' para se comportar de forma correta a telas menores
+4-) Incluir imagens no 'Turismo' e no 'Associados' do "Sentiero de Santana" (wpp: +55 19 99749-9630)
 
-5-) Diminuir fontes em telas menores
+5-) Obter Logos dos Associados
