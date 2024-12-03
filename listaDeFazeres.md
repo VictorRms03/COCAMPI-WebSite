@@ -6,10 +6,8 @@ LISTA DE FAZERES:
 - Finestra (Camila): (n to sabendo certinho)
 - Guaspari (Ederson) (Não me enviou ainda)
 
-2-) Alterar imagens a aba 'Turismo' para se comportar de forma correta a telas menores
+2-) Obter Logos dos Associados
 
-3-) Obter Logos dos Associados
+3-) Elaborar Texto dos Associados
 
-4-) Elaborar Texto dos Associados
-
-5-) Elaborar Tutorial para Continuação do Projeto: Como colocar no ar // Como dar o Fork
+4-) Elaborar Tutorial para Continuação do Projeto: Como colocar no ar // Como dar o Fork
