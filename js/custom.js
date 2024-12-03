@@ -50,6 +50,9 @@
         if( !$(this).hasClass( "card-group-show" ) ) {
 
           $(this).addClass( "card-group-show" );
+
+          scrollInto( this );
+
           return false;
           
         }
@@ -62,16 +65,15 @@
 
   $botaoCarregarMenosAssociados.on('click', function() {
 
-    if ( $botaoCarregarMaisAssociados.hasClass( "btn-hidden" ) ){
+    if ( $botaoCarregarMaisAssociados.hasClass( "btn-hidden" ) ) {
       $botaoCarregarMaisAssociados.removeClass( "btn-hidden" );
     }
-    
-
+  
     const $inverseCardGroup = $.makeArray( $( '.card-group') ).reverse();
 
     $( $inverseCardGroup ).each( function( index ) {
 
-      if ( index === $inverseCardGroup.length - 2 ){
+      if ( index === $inverseCardGroup.length - 2 ) {
         $botaoCarregarMenosAssociados.addClass( "btn-hidden" );
       }
 
@@ -80,6 +82,9 @@
         if( $(this).hasClass( "card-group-show" ) ) {
   
           $(this).removeClass( "card-group-show" );
+
+          scrollInto( $inverseCardGroup[ index+1 ] );
+
           return false;
   
         }
@@ -92,4 +97,9 @@
 
 })(window.jQuery);
 
+function scrollInto( object ) {
+
+  object.scrollIntoView({behavior: "smooth", block: "center"});
+
+}
 
