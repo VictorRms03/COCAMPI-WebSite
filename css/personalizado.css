@@ -125,6 +125,7 @@
 .card-group {
 
     margin-bottom: 2rem;
+    display: none;
 
     .card {
         width: 18rem;
@@ -144,6 +145,14 @@
 
         margin: 1rem;
     }
+}
+
+.card-group-show {
+    display: flex;
+}
+
+.btn-hidden {
+    display: none;
 }
 
 
