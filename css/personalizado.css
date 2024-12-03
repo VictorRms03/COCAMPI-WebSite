@@ -33,6 +33,11 @@
         margin: 0px 20px !important;
     }
 
+    .img-apoio {
+        max-height: 2.5rem !important;
+        max-width: auto;
+    }
+
 }
 
 @media (max-width: 500px) {
