@@ -13,5 +13,3 @@ LISTA DE FAZERES:
 4-) Elaborar Tutorial para Continuação do Projeto: Como colocar no ar // Como dar o Fork
 
 5-) Arrumar compatibilidade com Telas Menores - Associados
-
-6-) Ordem alfabetica em Associados e Turismo
