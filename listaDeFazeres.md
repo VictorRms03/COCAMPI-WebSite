@@ -8,8 +8,4 @@ LISTA DE FAZERES:
 
 2-) Obter Logos dos Associados
 
-3-) Elaborar Texto dos Associados
-
-4-) Elaborar Tutorial para Continuação do Projeto: Como colocar no ar // Como dar o Fork
-
-5-) Arrumar compatibilidade com Telas Menores - Associados
+3-) Elaborar Tutorial para Continuação do Projeto: Como colocar no ar // Como dar o Fork
