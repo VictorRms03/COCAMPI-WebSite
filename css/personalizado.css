@@ -4,9 +4,12 @@
 @media (max-width: 1100px) {
     
     .card-group {
-        display: table !important;
         margin: 0px auto;
         margin-bottom: 0 !important;
+    }
+
+    .card-group-show {
+        display: table !important;
     }
 
     .card-group>.card {
