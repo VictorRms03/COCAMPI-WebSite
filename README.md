@@ -12,8 +12,13 @@ O site está hospedado na plataforma HostGator. Para enviar suas alterações ao
 * Na aba 'Planos', encontre o referente ao domínio "cafesregiaodepinhal.com.br" e clique em `Editar Site`;
 * Na nova aba, clique em `Gerenciador de arquivos`;
 * Entre na pasta `public_html`;
-* Compacte seus arquivos para .zip e carregue-os;
+* Compacte seus arquivos para .zip e carregue-os `(Lembre-se de evitar o envio de arquivos não-utilizados como ".vscode", ".git" ou este próprio "README.md")`;
 * `Extraia os arquivos` e `apague` os arquivos antigos;
+
+### Otimizando Arquivos para Envio
+
+* Antes de enviar os arquivos para a internet. Minimize os arquivos com ferramentas de minimização encontradas no Google;
+* Compacte suas imagens ou as transforme em tipos de arquivos mais leves como .webp
 
 ## 🤝 Continuidade ao Projeto
 
