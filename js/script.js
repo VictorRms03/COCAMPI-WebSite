@@ -2,12 +2,17 @@
 
 "use strict";
 
+  // CONFIGURAÇÕES INICIAS DA BARRA DE NAVEGAÇÃO
+  $('#sidebarMenu .nav-item .nav-link:link').addClass('inactive');    
+  $('#sidebarMenu .nav-item .nav-link').eq(0).addClass('active');
+  $('#sidebarMenu .nav-item .nav-link:link').eq(0).removeClass('inactive');
+
   // MENU
   $('#sidebarMenu .nav-link').on('click',function(){
     $("#sidebarMenu").collapse('hide');
   });
   
-  // CUSTOM LINK
+  // BOTÃO DE RETORNAR AO TOPO
   $('.smoothscroll').click(function(){
     var el = $(this).attr('href');
     var elWrapped = $(el);
@@ -25,6 +30,7 @@
       scrollTop: totalScroll
       }, 300);
     }
+    
   });
 
   // COMPRIMIR && EXPANDIR ASSOCIADOS
@@ -61,7 +67,7 @@
       
     })
 
-  })
+  });
 
   $botaoCarregarMenosAssociados.on('click', function() {
 
@@ -93,13 +99,42 @@
 
     })
 
-  })
+  });
 
 })(window.jQuery);
+
+// BARRA DE NAVEGAÇÃO INTERATIVA
+var sectionArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+$.each(sectionArray, function(index, value){
+          
+     $(document).scroll(function(){
+         var offsetSection = $('#' + 'section_' + value).offset().top - 0;
+         var docScroll = $(document).scrollTop();
+         var docScroll1 = docScroll + 1;
+         
+        
+         if ( docScroll1 >= offsetSection ){
+             $('#sidebarMenu .nav-link').removeClass('active');
+             $('#sidebarMenu .nav-link:link').addClass('inactive');  
+             $('#sidebarMenu .nav-item .nav-link').eq(index).addClass('active');
+             $('#sidebarMenu .nav-item .nav-link').eq(index).removeClass('inactive');
+         }
+         
+     });
+    
+    $('.click-scroll').eq(index).click(function(e){
+        var offsetClick = $('#' + 'section_' + value).offset().top - 0;
+        e.preventDefault();
+        $('html, body').animate({
+            'scrollTop':offsetClick
+        }, 300)
+    });
+    
+});
 
 function scrollInto( object ) {
 
   object.scrollIntoView({behavior: "smooth", block: "center"});
-
+  
 }
 
